@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kalam", cursive;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right bottom, #355c7d, #c06c84);
+}
+
+.container {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+h6 {
+  text-align: right;
+  color: #df7d98;
+  font-size: 1.5rem;
+}
+
+p {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0.5rem auto;
+}
+
+input[type="number"] {
+  display: block;
+  height: 60px;
+  width: 100%;
+  border: 3px solid #355c7d;
+  text-align: center;
+  font-size: 2rem;
+  font-family: inherit;
+  margin-bottom: 1rem;
+}
+
+input[type="button"] {
+  font-family: inherit;
+  width: 100%;
+  height: 60px;
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #df7d98;
+  border: 3px solid #a15a6f;
+}
+
+input[type="button"]:hover {
+  background-color: #c56e87;
+}
